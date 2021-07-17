@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Escuela Canina - Contacto escuela Zuri" content="Contactate con Zuri escuela canina, podes realizar consultas y dejarnos tus comentarios.">
+    <title>ZURI ESCUELA CANINA CONTACTO - ADIESTRAMIENTO PREGUNTAS</title>
+    <link rel="stylesheet" href="../css/pruebacss.css">  
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Balthazar&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../scss/_mixin.scss">
+</head>
+   
+<body>
+    <header>
+        <h1>CONTACTO</h1>
+        <img id="logo" src="../imagenes/ZURI LOGO.jpg" alt="Imagen Logo Zuri">
+    </header>
+    <nav id="menu">            
+        <ul>
+          <li> 
+              <a href="cursosvir.html">CURSOS VIRTUALES</a> 
+          </li>                  
+          <li>
+              <a href="cursospre.html">CURSOS PRESENCIALES</a> 
+          </li>            
+          <li>
+              <a href="guarderia.html">GUARDERIA</a>
+          </li>
+          <li>
+              <a href="galeria.html">GALERIA</a>
+          </li>
+          <li>
+              <a href="comportamiento.html">COMPORTAMIENTO</a>
+          </li>
+          <li>
+            <a href="../index.html">HOME</a> 
+          </li> 
+        </ul> 
+    </nav>
+    <main>
+        <form class="formulario" action=""> <!-----FORMULARIO-->
+          <fieldset class="form">
+            <legend>FORMULARIO DE CONTACTO</legend>
+             <label for="nombreUsuario">NOMBRE</label>
+             <input type="text" id="nombreUsuario"><br>
+             <br>
+             <label for="apellidoUsuario">APELLIDO</label>
+             <input type="text" id="apellidoUsuario"><br>
+             <br>
+             <label for="emailUsuario">E-MAIL</label>
+             <input type="text" id="emailUsuario">
+              <br><br><br>
+            <label class="datos" for="comunicacion">DESEA QUE ME COMUNIQUE POR TELEFONO?</label><br>
+                SI<input type="radio" name="aceptacomunicacion" id="comunicacion">
+                NO<input type="radio" name="aceptacomunicacion"><br>
+            <label for="telefonoUsuario">TELEFONO</label>
+             <input type="text" id="telefonoUsuario"> 
+             <br><br>
+             <label class="datos2" for="aceptono">DESEO RECIBIR NOVEDADES DE LA ESCUELA</label> 
+                <input type="checkbox" id="aceptono">
+            <br><br><br>
+            <P class="escribe">MOTIVO DE CONSULTA</P><select name="" id="">
+                <option value="">CURSO ONLINE</option>
+                <option value="">CURSO PRESENCIAL</option>
+                <option value="">GUARDERIA</option>
+                <option value="">OTROS</option>
+            </select>
+            <p class="escribe2">DEJAME TUS COMENTARIOS</p> <textarea name="" id="" cols="80" rows="10"></textarea>
+            <br>
+            <input class="boton1" type="submit" value="ENVIAR">
+            <input class="boton2" type="reset" value="BORRAR">
+          </fieldset>
+        </form>
+    </main>
+    <footer> <!-----GRID EN TODOS LOS FOOTERS---->
+        <div id="cajaGrid"> 
+             <h3 class="datos">ZURI ESCUELA CANINA <br>Casco Histórico - Ciudad de La Plata</h3> 
+
+             <p class="datos2">9847587458746</p>
+             <a class="datos3" href="mailto:zuriescuela@perritos.com.ar">zuriescuela@perritos.com.ar</a>                
+        </div>        
+    </footer>
+</body>
+</html>
